@@ -48,3 +48,14 @@ var images = ["123.jpg", "2.jpg", "papich-postrimlyu-na-novoj-ploshchadke.jpg", 
 			slider.src = images[num];
 			}
 		
+let butVir = document.querySelector(".virus-button"),
+ 	vir = document.querySelector('.virus'),
+ 	close =document.querySelector('.virus-close')
+
+butVir.addEventListener('click', function() {
+	vir.style.display="block";
+})
+
+close.addEventListener('click', function() {
+	vir.style.display="none";
+})
